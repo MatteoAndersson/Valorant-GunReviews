@@ -176,6 +176,7 @@
 
 .gun{
     display: flex;
+    display: contents;
     color: white;
     background-color: #0F1922;
     width: 10vw;
