@@ -1,0 +1,858 @@
+.BIG-CHUNGUS{
+    background-color: #0F1922;
+    height: 200vh;
+    width: 98.9vw;
+    margin: -0.5vw;
+}
+
+.top-bar{
+    DISPLAY: FLEX;
+    background-color: #080808;
+    height: 100px;
+    width: 100%; 
+    color: white;
+    flex-direction: row;
+    border-bottom: dimgray;
+    align-items: center;
+}
+
+.top-bar-left{
+    width: 2vw;
+}
+
+.top-bar-middle{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.valorant-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 10vh;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gun-reviews-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 52.2vw;
+    height: 20vh;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.top-bar-right{
+    width: 2vw;
+}
+
+.contents{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contents-top-filler{
+    display: flex;
+    height: 10vh;
+    width: 98.9vw;
+    outline: none;
+}
+
+.back-to-main{
+    display: flex;
+    background-color: #0F1922;
+    color: white;
+    height: 8vh;
+    width: 18vw;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    outline: 4px solid dimgray;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.all-side-container{
+    display: flex;
+    flex-direction: row;
+    height: 200vh
+}
+
+.left-side{
+    height: 20vh;
+    width: 5vw;
+}
+
+.middle-side{
+    height: 250vh;
+    width: 100%;
+    background-color: #0F1922;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-side-gun-page{
+    height: 200vh;
+    width: 98.9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.weapons {
+    display: flex;
+    height: 30vh;
+    width: 90%;
+    background-color: aqua;
+    margin-left: 40px;
+    color: #EC3151;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 100%;
+    align-items: center;
+}
+
+#my-reviews{
+    font-size: 600%;
+    height: 100%
+}
+.sorting-row{
+    display: flex;
+    background-color: #EC3151;
+    height: 30vh;
+    width: 98.9vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#sort-button{
+    background-color: aqua;
+    height: 20vh;
+    width: 20vw;
+}
+
+#menu{
+    display: flex;
+    margin-left: 83px;
+    margin-bottom: 20px;
+    height: 7vh;
+    width: 15vw;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #080808;
+    outline: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.gun-selection1{
+    display: flex;
+    height: 1000px;
+    flex-wrap: wrap;
+    width: 98.9vw;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gun-selection-gun-page{
+    background-color: #0F1922;
+    display: flex;
+    height: 200px;
+    width: 98.9vw;
+    justify-content: flex-start;
+}
+
+.gun{
+    display: flex;
+    color: white;
+    background-color: #0F1922;
+    width: 10vw;
+    height: 35vh;
+    margin-left: 83px;
+    margin-bottom: 30px;
+    outline: 3px solid gray;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.stars-under-gun{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.stars-under-gun-properties{
+    height: 100%;
+    width: 25px;
+}
+
+.gun-gun-page{
+    display: flex;
+    color: #0F1922;
+    width: 98.9vw;
+    height: 25vh;
+    margin-top: 110px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-and-text{
+    display: flex;
+    width: 7vw;
+    height: 12vh;
+    color: #EC3151;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+}
+
+.image-and-text-gun-page{
+    display: flex;
+    background-color: dimgray;
+    width: 25vw;
+    height: 20vh;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    margin: 20px;
+}
+
+a:hover { text-decoration: white; color:yellow; }
+a:focus { text-decoration: none; color:orange; }
+a:active { text-decoration: none; color:teal; }
+a:visited { 
+    text-decoration: none; color: #0F1922; }
+
+.gun-image-properties{
+    display: flex;
+    width: 90%;
+    height: 46px;
+}
+
+.gun-image-properties-gun-page{
+    width: 100%;
+    height: 207px;
+}
+
+.gun-name{
+    display: flex;
+    letter-spacing: 2.0px;
+    color: white;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gun-name-gun-page{
+    display: flex;
+    letter-spacing: 2.0px;
+    color: white;
+    font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stats{
+    display: flex;
+    align-items: center;
+    width: 90.9vw;
+    height: 20vh;
+    margin-left: 50px;
+    color: #EC3151;
+    letter-spacing: 2.0px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cost{
+    display: flex;
+    align-items: center;
+    width: 80.9vw;
+    height: 15vh;
+    margin-left: 70px;
+    color: white;
+    letter-spacing: 2.0px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.damage{
+    display: flex;
+    align-items: center;
+    width: 80.9vw;
+    height: 15vh;
+    margin-left: 70px;
+    color: white;
+    letter-spacing: 2.0px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.range{
+    display: flex;
+    align-items: center;
+    width: 80.9vw;
+    height: 15vh;
+    margin-left: 70px;
+    color: white;
+    letter-spacing: 2.0px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ammo{
+    display: flex;
+    align-items: center;
+    width: 80.9vw;
+    height: 15vh;
+    margin-left: 70px;
+    color: white;
+    letter-spacing: 2.0px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fire-rate{
+    display: flex;
+    align-items: center;
+    width: 80.9vw;
+    height: 15vh;
+    margin-left: 70px;
+    color: white;
+    letter-spacing: 2.0px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.stats-text{
+    display: flex;
+    height: 20vh;
+    width: 25vw;
+    align-items: center;
+}
+
+
+
+
+.review{
+    display: flex;
+    align-items: center;
+    width: 95.9vw;
+    height: 20vh;
+    margin-left: 20px;
+    color: #EC3151;
+    letter-spacing: 2.0px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.review-stars{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 95.9vw;
+    height: 20vh;
+    margin-left: 20px;
+    color: #EC3151;
+    letter-spacing: 2.0px;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    width: 38vw;
+    height: 20vh;
+    margin-left: 50px;
+    letter-spacing: 2.0px;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.stars-properties{
+    height: 100%;
+    width: 110px;
+}
+
+.stars-text{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.review-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    height: 40vh;
+    margin-left: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    background-color: #0F1922;
+    width: 95.9vw;
+    height: 20vh;
+    margin-left: 20px;
+    color: #EC3151;
+    letter-spacing: 2.0px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filler-div-2{
+    display: flex;
+    background-color: #0F1922;
+    height: 15vh;
+    width: 98.9vw;
+}
+
+.gun-review-text{
+    display: flex;
+    height: 100vh;
+    width: 60vw;
+    flex-direction: column;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    color: #EC3151;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    height: 20vh;
+    width: 50vw;
+    letter-spacing: 1.5px;
+
+}
+
+
+.Text{
+    display: flex;
+    background-color: #0F1922;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 32vh;
+    width: 60vw;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.one-time-use{
+    display: flex;
+    width: 50vw;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.stats-box{
+    display: flex;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    height: 7vh;
+    width: 35vw;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+/*gör en css style för varje width från 1-48 så att jag kan välja på namnet senare hur bred den ska vara*/
+
+.stats-box-1 {
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 1vw;
+    margin-left: 9px;
+    }
+    
+.stats-box-2 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 2vw;
+margin-left: 9px;
+}
+
+.stats-box-3 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 3vw;
+margin-left: 9px;
+}
+
+.stats-box-4 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 4vw;
+margin-left: 9px;
+}
+
+.stats-box-5 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 5vw;
+margin-left: 9px;
+}
+
+.stats-box-6 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 6vw;
+margin-left: 9px;
+}
+
+.stats-box-7 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 7vw;
+margin-left: 9px;
+}
+
+.stats-box-8 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 8vw;
+margin-left: 9px;
+}
+
+.stats-box-9 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 9vw;
+margin-left: 9px;
+}
+
+.stats-box-10 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 10vw;
+margin-left: 9px;
+}
+
+.stats-box-11 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 11vw;
+margin-left: 9px;
+}
+
+.stats-box-12 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 12vw;
+margin-left: 9px;
+}
+
+.stats-box-13 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 13vw;
+margin-left: 9px;
+}
+
+.stats-box-14 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 14vw;
+margin-left: 9px;
+}
+
+.stats-box-15 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 15vw;
+margin-left: 9px;
+}
+
+.stats-box-16 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 16vw;
+margin-left: 9px;
+}
+
+.stats-box-17 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 17vw;
+margin-left: 9px;
+}
+
+.stats-box-18 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 18vw;
+margin-left: 9px;
+}
+
+.stats-box-19 {
+display: flex;
+background-color: #414141;
+height: 5vh;
+width: 19vw;
+margin-left: 9px;
+}
+
+.stats-box-20{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 20vw;
+    margin-left: 9px;
+}
+
+.stats-box-21{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 21vw;
+    margin-left: 9px;
+}
+
+.stats-box-22{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 22vw;
+    margin-left: 9px;
+}
+
+.stats-box-23{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 23vw;
+    margin-left: 9px;
+}
+
+.stats-box-24{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 24vw;
+    margin-left: 9px;
+}
+
+.stats-box-25{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 25vw;
+    margin-left: 9px;
+}
+
+.stats-box-26{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 26vw;
+    margin-left: 9px;
+}
+
+.stats-box-27{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 27vw;
+    margin-left: 9px;
+}
+
+.stats-box-28{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 28vw;
+    margin-left: 9px;
+}
+
+.stats-box-29{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 29vw;
+    margin-left: 9px;
+}
+
+.stats-box-30{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 30vw;
+    margin-left: 9px;
+}
+
+.stats-box-31{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 31vw;
+    margin-left: 9px;
+}
+
+.stats-box-32{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 32vw;
+    margin-left: 9px;
+}
+
+.stats-box-33{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 33vw;
+    margin-left: 9px;
+}
+
+.stats-box-34{
+    display: flex;
+    background-color: #414141;
+    height: 5vh;
+    width: 34vw;
+    margin-left: 9px;
+}
+
+@media (max-width: 1245px){
+    .stars-under-gun-properties{
+        width: 15px;
+    }
+    .gun-name{
+        letter-spacing: 1.0px;
+        font-size: 9px;
+    }
+    .gun-image-properties{
+        height: 46px;
+    }
+
+    
+}
