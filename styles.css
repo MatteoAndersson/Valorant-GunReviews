@@ -1,6 +1,6 @@
 .BIG-CHUNGUS{
     background-color: #0F1922;
-    height: 200vh;
+    height: 250vh;
     width: 98.9vw;
     margin: -0.5vw;
 }
@@ -56,15 +56,11 @@
 .contents{
     display: flex;
     width: 100%;
+    height:250vh;
     flex-direction: column;
 }
 
-.contents-top-filler{
-    display: flex;
-    height: 10vh;
-    width: 98.9vw;
-    outline: none;
-}
+
 
 .back-to-main{
     display: flex;
@@ -73,6 +69,7 @@
     height: 8vh;
     width: 18vw;
     outline: none;
+    font-size: 16px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;
     justify-content: center;
@@ -82,13 +79,14 @@
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 30px;
     border: none;
 }
 
 .all-side-container{
     display: flex;
     flex-direction: row;
-    height: 200vh
+    height: 300vh
 }
 
 .left-side{
@@ -97,8 +95,8 @@
 }
 
 .middle-side{
-    height: 210vh;
-    width: 100%;
+    height: 250vh;
+    width: 98.9vw;
     background-color: #0F1922;
     display: flex;
     flex-direction: column;
@@ -119,13 +117,11 @@
     color: #EC3151;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
-    font-size: 100%;
     align-items: center;
 }
 
 #my-reviews{
-    font-size: 600%;
-    height: 100%
+    font-size: 80px;
 }
 .sorting-row{
     display: flex;
@@ -136,11 +132,6 @@
     align-items: center;
 }
 
-#sort-button{
-    background-color: aqua;
-    height: 20vh;
-    width: 20vw;
-}
 
 #menu{
     display: flex;
@@ -158,7 +149,6 @@
 
 .gun-selection1{
     display: flex;
-    height: 1000px;
     flex-wrap: wrap;
     width: 98.9vw;
     justify-content: flex-start;
@@ -401,7 +391,7 @@ a:visited {
 .review-stars{
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 95.9vw;
     height: 20vh;
     margin-left: 20px;
@@ -413,7 +403,7 @@ a:visited {
 
 .stars{
     display: flex;
-    align-items: center;
+    align-items: space-evenly;
     width: 38vw;
     height: 20vh;
     margin-left: 50px;
@@ -502,7 +492,8 @@ a:visited {
 
 .gun-review-text{
     display: flex;
-    height: 100vh;
+    background-color: #0F1922;
+    height: 200vh;
     width: 60vw;
     flex-direction: column;
 }
@@ -510,10 +501,12 @@ a:visited {
 .Title{
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     color: #EC3151;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    height: 20vh;
+    margin-left: 20px;
+    height: 40vh;
     width: 50vw;
     letter-spacing: 1.5px;
 
@@ -527,7 +520,7 @@ a:visited {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 32vh;
     width: 60vw;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 25px;
 }
 
@@ -829,7 +822,7 @@ margin-left: 9px;
     margin-left: 9px;
 }
 
-@media (max-width: 1245px){
+@media (max-width: 1295px){
     .stars-under-gun-properties{
         width: 15px;
     }
@@ -839,7 +832,65 @@ margin-left: 9px;
     }
     .gun-image-properties{
         height: 46px;
-    }
+    }  
+}
 
-    
+@media (max-width: 1024px) {
+    /* Add your styles for smaller screens here */
+    .back-to-main{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    /* Add your styles for smaller screens here */
+    #my-reviews{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 730px) {
+    /* Add your styles for smaller screens here */
+    .stars-under-gun-properties{
+        width: 8px;
+    }
+    .gun-name{
+        letter-spacing: 0.7px;
+        font-size: 6px;
+    }
+    #menu{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    /* Add your styles for smaller screens here */
+    .middle-side{
+        height: 320vh;
+    }
+}
+@media (max-width: 565px) {
+    /* Add your styles for smaller screens here */
+    .middle-side{
+        height: 350vh;
+    }
+    .back-to-main{
+        font-size: 6px;
+    }
+}
+@media (max-width: 400px) {
+    /* Add your styles for smaller screens here */
+    .middle-side{
+        height: 370vh;
+    }
+    .gun-review-text{
+        height: 300vh;
+    }
+    .valorant-title{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .gun-reviews-title{
+        font-size: 15px;
+    }
 }
